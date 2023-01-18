@@ -1,0 +1,10 @@
+---
+cropSize:
+- 512
+- 512
+incDecAmount: 32
+confirmDialog: false
+overWriteByDefault: false
+fullscreen: false
+outputDirectories: []
+bindings: []

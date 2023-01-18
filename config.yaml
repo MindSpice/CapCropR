@@ -1,0 +1,40 @@
+cropWidth: 512
+cropHeight: 512
+cropIncDecScrollW: 32
+cropIncDecScrollH: 32
+editorQuality: QUALITY
+previewQuality: ULTRA_QUALITY
+saveQuality: ULTRA_QUALITY
+cropOutlineColor:
+  - 255
+  - 0
+  - 0
+cropLineWidth: 2
+alwaysSaveFlipped: true
+confirmDialog: false
+overWriteByDefault: false
+fullscreen: false
+outputDirectories:
+  - /media/mindspice/Games/Training-Data/fantasy-train/character
+  - /media/mindspice/Games/Training-Data/fantasy-train/creature
+  - /media/mindspice/Games/Training-Data/fantasy-train/item
+  - /media/mindspice/Games/Training-Data/fantasy-train/landscape
+bindings:
+
+- binding: CROP_ALTER
+  key: EQUALS
+  modifier: CONTROL
+  valueX: 32
+  valueY: 32
+  
+- binding: CROP_ALTER
+  key: MINUS
+  modifier: CONTROL
+  valueX: -32
+  valueY: -32
+  
+- binding: CROP_RESIZE
+  key: DIGIT0
+  modifier: CONTROL
+  valueX: 128
+  valueY: 128
